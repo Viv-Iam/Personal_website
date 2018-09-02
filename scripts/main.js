@@ -9,6 +9,19 @@
 //   $(".body").css("opacity", 1 - $(window).scrollTop() / 250);
 // });
 
+var button = document.querySelector('button');
+button.onclick = function() {
+  console.log("ClICKED");
+  document.getElementById("about").scrollIntoView()
+  // document.getElementById("btnhome").value = document.getElementById("home").value;
+  // document.getElementById("btnhome").value = document.getElementById("home").value;
+  // document.getElementById("btnhome").value = document.getElementById("home").value;
+}
+
+function myFunction() {
+  document.getElementById("btnabout").value = document.getElementById("home").value;
+}
+
 var myImage = document.querySelector('img');
 
 myImage.onclick = function() {
@@ -39,4 +52,5 @@ function setUserName() {
   myButton.onclick = function() {
     setUserName();
   }
+  
   

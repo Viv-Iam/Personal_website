@@ -86,38 +86,34 @@ button,.btn {
 .interests {
     margin-right: 30px;
     padding-top: 200px;
-    margin-bottom: 183px;
+    margin-bottom: 148px;
 }
 
 #contact {
     background-color: #23B6B9;
-    /* text-align: center; */
+    text-align: center;
     padding-top: 80px;
     padding-bottom: 100px;
-    /* margin-top: 218px; */
 }
 
-.header3 {
-    text-align: center;
+.hide {
+    display: none;
 }
 
-.ficons {
-    display: inline-flex;
-}
+ul {
+    list-style: none;
+  }
 
-.contacts {
-    font-family: 'Shadows Into Light', cursive;
-    margin-left: 45px;
-    /* height: 600px;
-    padding-left: 450px;
-    padding-top: 150px; */
-    /*border-left: thin solid white;*/
-} 
+/* li {
+    height: 175px;
+    width: 100%;
+    border: solid;
+} */
 
-.fa-linkedin-square {
-    /* margin-left: 50%; */
+/* .fa-linkedin-square {
+    margin-left: 50%;
 }
 
 .fa-github {
-    /* margin-left: 10%; */
-}
+    margin-left: 10%;
+} */
