@@ -9,18 +9,31 @@
 //   $(".body").css("opacity", 1 - $(window).scrollTop() / 250);
 // });
 
-var button = document.querySelector('button');
+var button = document.getElementById('btnhome');
 button.onclick = function() {
-  console.log("ClICKED");
-  document.getElementById("about").scrollIntoView()
-  // document.getElementById("btnhome").value = document.getElementById("home").value;
-  // document.getElementById("btnhome").value = document.getElementById("home").value;
-  // document.getElementById("btnhome").value = document.getElementById("home").value;
+  document.getElementById('home').scrollIntoView()
 }
 
-function myFunction() {
-  document.getElementById("btnabout").value = document.getElementById("home").value;
+var button = document.getElementById('btnabout');
+button.onclick = function() {
+  document.getElementById('about').scrollIntoView()
 }
+
+var button = document.getElementById('btninterests');
+button.onclick = function() {
+  document.getElementById('interests').scrollIntoView()
+}
+
+var button = document.getElementById('btncontact');
+button.onclick = function() {
+  document.getElementById('contact').scrollIntoView()
+}
+
+// var myHeading = document.querySelector('h3');
+// myHeading.onmouseover = function() {
+//   document.querySelector('h3').style.color = "blue";
+// }
+
 
 var myImage = document.querySelector('img');
 
