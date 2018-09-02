@@ -11,9 +11,14 @@ html {
     overflow-x: hidden;
 }
 
+.body {
+    opacity: 1;
+    position: relative;
+}
+
 .landing {
     background-color: #23B6B9;
-    height: 600px;
+    height: 500px;
 }
 
 button {
@@ -31,12 +36,16 @@ button {
 }
 
 .buttons {
-    align-items: center;
     background-color: inherit;
+    position: fixed;
+    width: 100%;
+    /* overflow: hidden; */
+    top: 0;
 }
 
 #imgvvn {
     margin-top: 70px;
+    padding-top: 40px;
     border-radius: 20px;
     display: block;
     margin-left: auto;
@@ -74,6 +83,7 @@ button {
 .interests {
     margin-right: 30px;
     padding-top: 200px;
+    margin-bottom: 183px;
 }
 
 #contact {
@@ -81,7 +91,18 @@ button {
     text-align: center;
     padding-top: 80px;
     padding-bottom: 100px;
-    margin-top: 218px;
+    /* margin-top: 218px; */
+}
+
+.contacts {
+    color: white;
+    font-size: 20px;
+    font-family: 'Shadows Into Light', cursive;
+    margin-left: 20px;
+    height: 600px;
+    padding-left:450px;
+    padding-top: 150px;
+    /*border-left: thin solid white;*/
 }
 
 #icons {

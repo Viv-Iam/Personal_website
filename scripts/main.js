@@ -5,6 +5,10 @@
 //     alert('Ouch! Stop poking me!');
 // }
 
+$(window).scroll(function(){
+  $(".body").css("opacity", 1 - $(window).scrollTop() / 250);
+});
+
 var myImage = document.querySelector('img');
 
 myImage.onclick = function() {
