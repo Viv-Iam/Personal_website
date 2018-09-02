@@ -5,6 +5,7 @@
 
 html {
     color: white;
+    background-color: #ED9A8C;
     font-size: 22px;
 }
 
@@ -18,19 +19,17 @@ body {
     background-color: #00243E;
 }
 
-img {
-    width: 25%;
-    height: 400px;
-    margin: 0px;
-    padding: 0px;
+.home {
+    background-color: #23B6B9;
+    height: 600px;
 }
 
-.images {
-    display: inline-flex;
-}
-
-#pic {
-    width: 300px;
+#imgvvn {
+    margin-top: 70px;
+    border-radius: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* .fa-github {
@@ -57,8 +56,8 @@ img {
     width: 42%;
     /* height: 400px; */
     float: right;
-    background-image: url("../images/swim.jpg");
-    border-left: 200px solid #fff;
+    background-image: url("../images/rose.jpg");
+    border-left: 200px solid #ED9A8C;
     border-top: 500px solid transparent;
   }
 
@@ -83,20 +82,43 @@ img {
     width: 42.5%;
     /* height: 500px; */
     float: left;
-    background-image: url("../images/swim.jpg");
-    border-right: 200px solid #fff;
+    background-image: url("../images/rose.jpg");
+    border-right: 200px solid #ED9A8C;
     border-top: 500px solid transparent;
   }
 
 .contacts {
-    background-color: #00243E;
+    background-color: #23B6B9;
     text-align: center;
-    padding: 100px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    margin-top: 253px;
 }
 
 .col {
     /* display: inline-flex;
     background-color: white; */
+    color: #F0FFFF;
+    
+}
+
+button {
+    width: 130px;
+    height: 30px;
+    font-size: 22px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 12%;
+    font-family: 'Shadows Into Light', cursive;
+    padding-bottom: 40px;
+    border-radius: 5px;
+    background-color: #ED9A8C;
+    border-color: #ED9A8C;
     color: #00243E;
+}
+
+.buttons {
+    align-items: center;
+    background-color: inherit;
     
 }
