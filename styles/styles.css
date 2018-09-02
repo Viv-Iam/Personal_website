@@ -6,89 +6,14 @@
 html {
     color: #00243E;
     background-color: #ED9A8C;
-    font-size: 22px;
-}
-
-body {
-    overflow-x: hidden;
     font-family: 'Shadows Into Light', cursive;
+    font-size: 22px;
+    overflow-x: hidden;
 }
 
-.h1 {
-    text-align: center;
-    background-color: #00243E;
-}
-
-.home {
+.landing {
     background-color: #23B6B9;
     height: 600px;
-}
-
-#imgvvn {
-    margin-top: 70px;
-    border-radius: 20px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.fa-github {
-    margin-left: 15px;
-}
-
-.fa-linkedin-square {
-    margin-right: 15px;
-} 
-
-#icons {
-    margin-top: 50px;
-}
-
-.about {
-    margin-left: 45px;
-    padding-top: 80px;
-}
-
-#about-bg-diagonal{
-    width: 42%;
-    /* height: 400px; */
-    float: right;
-    background-image: url("../images/rose.jpg");
-    border-left: 200px solid #ED9A8C;
-    border-top: 500px solid transparent;
-  }
-
-  .bg-parallax{
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment:fixed;
-  }
-  
-
-.interests {
-    /* margin-right: 30%;
-    padding-left: 0;
-    padding: 80px; */
-    margin-right: 30px;
-    padding-top: 200px;
-}
-
-#interest-bg-diagonal{
-    width: 42.5%;
-    /* height: 500px; */
-    float: left;
-    background-image: url("../images/rose.jpg");
-    border-right: 200px solid #ED9A8C;
-    border-top: 500px solid transparent;
-  }
-
-.contacts {
-    background-color: #23B6B9;
-    text-align: center;
-    padding-top: 80px;
-    padding-bottom: 100px;
-    margin-top: 253px;
 }
 
 button {
@@ -108,5 +33,65 @@ button {
 .buttons {
     align-items: center;
     background-color: inherit;
-    
+}
+
+#imgvvn {
+    margin-top: 70px;
+    border-radius: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bg-parallax {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#about-bg-diagonal {
+    width: 42%;
+    float: right;
+    background-image: url("../images/rose.jpg");
+    border-left: 200px solid #ED9A8C;
+    border-top: 500px solid transparent;
+}
+
+.about {
+    margin-left: 45px;
+    padding-top: 80px;
+}
+
+#interest-bg-diagonal {
+    width: 42.5%;
+    float: left;
+    background-image: url("../images/rose.jpg");
+    border-right: 200px solid #ED9A8C;
+    border-top: 500px solid transparent;
+}
+
+.interests {
+    margin-right: 30px;
+    padding-top: 200px;
+}
+
+#contact {
+    background-color: #23B6B9;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 100px;
+    margin-top: 218px;
+}
+
+#icons {
+    margin-top: 50px;
+}
+
+.fa-linkedin-square {
+    margin-right: 15px;
+}
+
+.fa-github {
+    margin-left: 15px;
 }

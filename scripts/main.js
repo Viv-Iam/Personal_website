@@ -8,7 +8,7 @@
 var myImage = document.querySelector('img');
 
 myImage.onclick = function() {
-    var mySrc = myImage.getAttribute('src');
+    // var mySrc = myImage.getAttribute('src');
     if(mySrc === 'images/iceskating.jpg') {
       myImage.setAttribute ('src','images/car.jpg');
     } else {
