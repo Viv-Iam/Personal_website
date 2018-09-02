@@ -5,7 +5,7 @@
 
 html {
     color: white;
-    font-size: 30px;
+    font-size: 22px;
 }
 
 body {
@@ -19,18 +19,14 @@ body {
 }
 
 img {
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
-    border-radius: 25px;
-    width: 300px;
-    height: 300px;
+    width: 25%;
+    height: 400px;
+    margin: 0px;
+    padding: 0px;
 }
 
-.image {
-    background-color: #00243E;
-    padding-top: 100px;
-    padding-bottom: 100px;
+.images {
+    display: inline-flex;
 }
 
 #pic {
@@ -48,15 +44,49 @@ img {
 } */
 
 .about {
-    text-align: left;
-    margin-right: 5%;
-    border-right: thin solid #00243E;
+    margin-left: 45px;
+    /* margin-bottom: 20px; */
+    padding-top: 80px;
+    color: #00243E;
+    /* margin-right: 5%;
+    padding: 80px; */
+    /* border-right: thin solid #00243E; */
 }
 
+#about-bg-diagonal{
+    width: 42%;
+    /* height: 400px; */
+    float: right;
+    background-image: url("../images/swim.jpg");
+    border-left: 200px solid #fff;
+    border-top: 500px solid transparent;
+  }
+
+  .bg-parallax{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment:fixed;
+  }
+  
+
 .interests {
-    margin-right: 30%;
+    /* margin-right: 30%;
     padding-left: 0;
+    padding: 80px; */
+    margin-right: 30px;
+    padding-top: 200px;
+    color: #00243E;
 }
+
+#interest-bg-diagonal{
+    width: 42.5%;
+    /* height: 500px; */
+    float: left;
+    background-image: url("../images/swim.jpg");
+    border-right: 200px solid #fff;
+    border-top: 500px solid transparent;
+  }
 
 .contacts {
     background-color: #00243E;
@@ -65,8 +95,8 @@ img {
 }
 
 .col {
-    display: inline-flex;
-    background-color: white;
+    /* display: inline-flex;
+    background-color: white; */
     color: #00243E;
-    padding: 80px;
+    
 }
