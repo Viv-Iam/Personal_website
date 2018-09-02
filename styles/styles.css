@@ -24,7 +24,7 @@ html {
     height: 500px;
 }
 
-button {
+button,.btn {
     width: 130px;
     height: 30px;
     font-size: 22px;
@@ -106,24 +106,18 @@ button {
 }
 
 .contacts {
-    color: white;
-    font-size: 20px;
     font-family: 'Shadows Into Light', cursive;
-    margin-left: 20px;
+    margin-left: 45px;
     /* height: 600px;
     padding-left: 450px;
     padding-top: 150px; */
     /*border-left: thin solid white;*/
-}
-
-#icons {
-    margin-top: 50px;
-}
+} 
 
 .fa-linkedin-square {
-    margin-right: 15px;
+    /* margin-left: 50%; */
 }
 
 .fa-github {
-    margin-left: 15px;
+    /* margin-left: 10%; */
 }
