@@ -5,18 +5,18 @@
 //     alert('Ouch! Stop poking me!');
 // }
 
-$(window).scroll(function(){
-  $(".body").css("opacity", 1 - $(window).scrollTop() / 250);
-});
+// $(window).scroll(function(){
+//   $(".body").css("opacity", 1 - $(window).scrollTop() / 250);
+// });
 
 var myImage = document.querySelector('img');
 
 myImage.onclick = function() {
-    // var mySrc = myImage.getAttribute('src');
-    if(mySrc === 'images/iceskating.jpg') {
-      myImage.setAttribute ('src','images/car.jpg');
+    var mySrc = myImage.getAttribute('src');
+    if(mySrc === 'images/vivian.jpg') {
+      myImage.setAttribute ('src','images/rose.jpg');
     } else {
-      myImage.setAttribute ('src','images/swim.jpg');
+      myImage.setAttribute ('src','images/vivian.jpg');
     }
 }
 
