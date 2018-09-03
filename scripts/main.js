@@ -9,6 +9,8 @@
 //   $(".body").css("opacity", 1 - $(window).scrollTop() / 250);
 // });
 
+// BUTTONS
+
 var button = document.getElementById('btnhome');
 button.onclick = function() {
   document.getElementById('home').scrollIntoView()
@@ -29,41 +31,58 @@ button.onclick = function() {
   document.getElementById('contact').scrollIntoView()
 }
 
+// INTERESTS
+
+// var list = document.getElementById('mentorship');
+// button.onmouseover = function() {
+//   var element = document.getElementById(id);
+//   if (element === 'mentorship') {
+//     document.getElementById('mentorship').style.display = "none";
+//     document.getElementById('iot').style.display = "unset";
+//   }
+// }
+
+var button = document.getElementById('mentorship');
+button.onmouseover = function() {
+  document.getElementById('mentorship').style.display = "none";
+  document.getElementById('sport').style.display = "unset";
+}
+
 // var myHeading = document.querySelector('h3');
 // myHeading.onmouseover = function() {
 //   document.querySelector('h3').style.color = "blue";
 // }
 
 
-var myImage = document.querySelector('img');
+var myImage = document.querySelector('#imgvvn');
 
-myImage.onclick = function() {
+myImage.ondblclick = function() {
     var mySrc = myImage.getAttribute('src');
     if(mySrc === 'images/vivian.jpg') {
-      myImage.setAttribute ('src','images/rose.jpg');
+      myImage.setAttribute ('src','images/vvn-mest.jpg');
     } else {
       myImage.setAttribute ('src','images/vivian.jpg');
     }
 }
 
-var myButton = document.querySelector('button');
-var myHeading = document.querySelector('h1');
+// var myButton = document.querySelector('button');
+// var myHeading = document.querySelector('h1');
 
-function setUserName() {
-    var myName = prompt('Please enter your name.');
-    localStorage.setItem('name', myName);
-    myHeading.textContent = myName + ' you is cool';
-  }
+// function setUserName() {
+//     var myName = prompt('Please enter your name.');
+//     localStorage.setItem('name', myName);
+//     myHeading.textContent = myName + ' you is cool';
+//   }
 
-  if(!localStorage.getItem('name')) {
-    setUserName();
-  } else {
-    var storedName = localStorage.getItem('name');
-    myHeading.textContent = 'Mozilla is cool, ' + storedName;
-  }
+//   if(!localStorage.getItem('name')) {
+//     setUserName();
+//   } else {
+//     var storedName = localStorage.getItem('name');
+//     myHeading.textContent = 'Mozilla is cool, ' + storedName;
+//   }
 
-  myButton.onclick = function() {
-    setUserName();
-  }
+//   myButton.onclick = function() {
+//     setUserName();
+//   }
   
   

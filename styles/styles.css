@@ -2,6 +2,7 @@
     margin: 0px;
     padding: 0px;
 }
+
 h1 {
     color: #00243E;
 }
@@ -14,17 +15,13 @@ html {
     overflow-x: hidden;
 }
 
-/* .body {
-    opacity: 1;
-    position: relative;
-} */
-
 .landing {
     background-color: #23B6B9;
     height: 500px;
 }
 
-button,.btn {
+button,
+.btn {
     width: 130px;
     height: 30px;
     font-size: 22px;
@@ -42,7 +39,6 @@ button,.btn {
     background-color: inherit;
     position: fixed;
     width: 100%;
-    /* overflow: hidden; */
     top: 0;
 }
 
@@ -102,18 +98,4 @@ button,.btn {
 
 ul {
     list-style: none;
-  }
-
-/* li {
-    height: 175px;
-    width: 100%;
-    border: solid;
-} */
-
-/* .fa-linkedin-square {
-    margin-left: 50%;
 }
-
-.fa-github {
-    margin-left: 10%;
-} */
