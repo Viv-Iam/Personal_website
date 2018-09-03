@@ -33,20 +33,13 @@ button.onclick = function () {
 
 // INTERESTS
 
-// var list = document.getElementById('mentorship');
-// button.onmouseover = function() {
-//   var element = document.getElementById(id);
-//   if (element === 'mentorship') {
-//     document.getElementById('mentorship').style.display = "none";
-//     document.getElementById('iot').style.display = "unset";
-//   }
-// }
-
 var element = document.getElementById('mentorship');
 element.onmouseover = function () {
   document.getElementById('mentorship').style.display = "none";
   document.getElementById('sport').style.display = "unset";
 }
+
+
 
 var changeTheme = document.getElementById('btntheme');
 changeTheme.onclick = function () {
@@ -70,14 +63,6 @@ changeTheme.onclick = function () {
   document.getElementById('interest-bg-diagonal').style.borderRightColor = "#23B6B9";
 
 }
-
-
-
-// var myHeading = document.querySelector('h3');
-// myHeading.onmouseover = function() {
-//   document.querySelector('h3').style.color = "blue";
-// }
-
 
 var myImage = document.querySelector('#imgvvn');
 
