@@ -1,3 +1,6 @@
+/*=============================================================
+                          ondblclick image
+=============================================================*/
 var myImage = document.querySelector('#imgvvn');
 
 myImage.ondblclick = function () {
@@ -9,29 +12,24 @@ myImage.ondblclick = function () {
   }
 }
 
-// BUTTONS
+/*=============================================================
+                          onclick top buttons
+=============================================================*/
 
-var button = document.querySelector('button');
-button.onclick = function () {
-  var myButtonId = button.document.getElement('id');
-
-  if(myButtonId === 'btnhome') {
-    console.log('CLICKED');
-    document.getElementById('home').scrollIntoView()
-  }
-
-    // if (mySrc === 'images/vivian.jpg') {
-    //   myImage.setAttribute('src', 'images/vvn-mest.jpg');
-    // } else {
-    //   myImage.setAttribute('src', 'images/vivian.jpg');
-    // }
-}
-
-
-// var button = document.getElementById('btnhome');
+// var button = document.querySelector('btnhome');
 // button.onclick = function () {
-//   document.getElementById('home').scrollIntoView()
+//   var myButtonId = button.document.getElementById(id);
+
+//   if(myButtonId === 'btnhome') {
+//     console.log('CLICKED');
+//     document.getElementById('home').scrollIntoView()
+//   }
 // }
+
+var button = document.getElementById('btnhome');
+button.onclick = function () {
+  document.getElementById('home').scrollIntoView()
+}
 
 var button = document.getElementById('btnabout');
 button.onclick = function () {
@@ -48,16 +46,18 @@ button.onclick = function () {
   document.getElementById('contact').scrollIntoView()
 }
 
-// INTERESTS
-
+/*=============================================================
+                          onmouseover interest
+=============================================================*/
 var element = document.getElementById('mentorship');
 element.onmouseover = function () {
   document.getElementById('mentorship').style.display = "none";
   document.getElementById('sport').style.display = "unset";
 }
 
-
-
+/*=============================================================
+                          onclick theme button
+=============================================================*/
 var changeTheme = document.getElementById('btntheme');
 changeTheme.onclick = function () {
   document.getElementById('html').style.backgroundColor = "#23B6B9";
