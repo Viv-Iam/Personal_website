@@ -20,8 +20,7 @@ html {
     height: 500px;
 }
 
-button,
-.btn {
+button {
     width: 130px;
     height: 30px;
     font-size: 18px;
@@ -35,7 +34,7 @@ button,
     border-color: #ED9A8C;
 }
 
-.buttons {
+#buttons {
     background-color: inherit;
     position: fixed;
     width: 100%;
@@ -98,4 +97,13 @@ button,
 
 ul {
     list-style: none;
+}
+
+i {
+    color: #ED9A8C;
+}
+
+#icons {
+    padding: 0;
+    margin: 0;
 }
