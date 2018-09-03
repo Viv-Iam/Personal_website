@@ -1,20 +1,37 @@
-// var myHeading = document.querySelector('h1');
-// myHeading.textContent = 'Hello world!';
+var myImage = document.querySelector('#imgvvn');
 
-// document.querySelector('html').onclick = function() {
-//     alert('Ouch! Stop poking me!');
-// }
-
-// $(window).scroll(function(){
-//   $(".body").css("opacity", 1 - $(window).scrollTop() / 250);
-// });
+myImage.ondblclick = function () {
+  var mySrc = myImage.getAttribute('src');
+  if (mySrc === 'images/vivian.jpg') {
+    myImage.setAttribute('src', 'images/vvn-mest.jpg');
+  } else {
+    myImage.setAttribute('src', 'images/vivian.jpg');
+  }
+}
 
 // BUTTONS
 
-var button = document.getElementById('btnhome');
+var button = document.querySelector('button');
 button.onclick = function () {
-  document.getElementById('home').scrollIntoView()
+  var myButtonId = button.document.getElement('id');
+
+  if(myButtonId === 'btnhome') {
+    console.log('CLICKED');
+    document.getElementById('home').scrollIntoView()
+  }
+
+    // if (mySrc === 'images/vivian.jpg') {
+    //   myImage.setAttribute('src', 'images/vvn-mest.jpg');
+    // } else {
+    //   myImage.setAttribute('src', 'images/vivian.jpg');
+    // }
 }
+
+
+// var button = document.getElementById('btnhome');
+// button.onclick = function () {
+//   document.getElementById('home').scrollIntoView()
+// }
 
 var button = document.getElementById('btnabout');
 button.onclick = function () {
@@ -64,16 +81,7 @@ changeTheme.onclick = function () {
 
 }
 
-var myImage = document.querySelector('#imgvvn');
 
-myImage.ondblclick = function () {
-  var mySrc = myImage.getAttribute('src');
-  if (mySrc === 'images/vivian.jpg') {
-    myImage.setAttribute('src', 'images/vvn-mest.jpg');
-  } else {
-    myImage.setAttribute('src', 'images/vivian.jpg');
-  }
-}
 
 // var myButton = document.querySelector('button');
 // var myHeading = document.querySelector('h1');

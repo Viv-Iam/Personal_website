@@ -15,6 +15,9 @@ html {
     overflow-x: hidden;
 }
 
+/*=============================================================
+                          Home
+=============================================================*/
 .landing {
     background-color: #23B6B9;
     height: 500px;
@@ -50,6 +53,9 @@ button {
     margin-right: auto;
 }
 
+/*=============================================================
+                          About
+=============================================================*/
 .bg-parallax {
     background-repeat: no-repeat;
     background-size: cover;
@@ -70,6 +76,9 @@ button {
     padding-top: 80px;
 }
 
+/*=============================================================
+                          Interest
+=============================================================*/
 #interest-bg-diagonal {
     width: 42.5%;
     float: left;
@@ -84,19 +93,23 @@ button {
     margin-bottom: 148px;
 }
 
-#contact {
-    background-color: #23B6B9;
-    text-align: center;
-    padding-top: 80px;
-    padding-bottom: 100px;
-}
-
 .hide {
     display: none;
 }
 
 ul {
     list-style: none;
+}
+
+
+/*=============================================================
+                          Links
+=============================================================*/
+#contact {
+    background-color: #23B6B9;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 100px;
 }
 
 i {
