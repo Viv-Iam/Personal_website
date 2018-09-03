@@ -24,12 +24,12 @@ button,
 .btn {
     width: 130px;
     height: 30px;
-    font-size: 22px;
+    font-size: 18px;
     margin-top: 15px;
-    margin-bottom: 15px;
-    margin-left: 12%;
+    margin-bottom: 22px;
+    margin-left: 8%;
     font-family: 'Shadows Into Light', cursive;
-    padding-bottom: 40px;
+    padding-bottom: 30px;
     border-radius: 5px;
     background-color: #ED9A8C;
     border-color: #ED9A8C;
