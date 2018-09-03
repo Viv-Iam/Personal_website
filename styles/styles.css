@@ -112,11 +112,11 @@ ul {
     padding-bottom: 100px;
 }
 
-i {
-    color: #ED9A8C;
+#icons1 {
+    display: none;
 }
 
-#icons {
+/* #icons {
     padding: 0;
     margin: 0;
-}
+} */

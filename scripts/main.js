@@ -18,7 +18,7 @@ myImage.ondblclick = function () {
 
 // var button = document.querySelector('btnhome');
 // button.onclick = function () {
-//   var myButtonId = button.document.getElementById(id);
+//   var myButtonId = button.document.getAttribute(id);
 
 //   if(myButtonId === 'btnhome') {
 //     console.log('CLICKED');
@@ -49,6 +49,19 @@ button.onclick = function () {
 /*=============================================================
                           onmouseover interest
 =============================================================*/
+// var myImage = document.querySelector('img');
+
+// myImage.onclick = function() {
+//     var mySrc = myImage.getAttribute('src');
+//     if(mySrc === 'images/firefox-icon.png') {
+//       myImage.setAttribute ('src','images/firefox2.png');
+//     } else {
+//       myImage.setAttribute ('src','images/firefox-icon.png');
+//     }
+// }
+
+
+
 var element = document.getElementById('mentorship');
 element.onmouseover = function () {
   document.getElementById('mentorship').style.display = "none";
@@ -74,8 +87,8 @@ changeTheme.onclick = function () {
   document.getElementById('btntheme').style.backgroundColor = "#23B6B9";
   document.getElementById('btntheme').style.borderColor = "#23B6B9";
   document.getElementById('contact').style.backgroundColor = "#ED9A8C";
-  document.getElementById('i').style.backgroundColor = "#23B6B9";
-  document.getElementById('j').style.backgroundColor = "#23B6B9";
+  document.getElementById('icons').style.display= "none";
+  document.getElementById('icons1').style.display = "unset";
   document.getElementById('about-bg-diagonal').style.borderLeftColor = "#23B6B9";
   document.getElementById('interest-bg-diagonal').style.borderRightColor = "#23B6B9";
 
